@@ -1,0 +1,43 @@
+body {
+    background-color: #b2d8d8;
+    color: #333333;
+}
+
+
+.evenrow{background-color: #A9A9A9}
+
+/* Link Color */
+a {
+    color: #66b2b2;
+}
+
+/* Heading Color */
+h1, h2 {
+    color: #111111;
+}
+
+/* Site Navigation Background */
+nav {
+    background-color: #b2d8d8;
+}
+
+/* Site Navigation Highlight Color */
+nav a:hover {
+    background-color: #008080;
+}
+
+/* Site Navigation Link Color */
+nav a {
+    color: #006666;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav {
+    margin-bottom: 30px
+}
+
+.copyright {float: left; margin-right: 10px}
+.quote {float: right; margin-left: 10px}

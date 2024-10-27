@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+        <meta charset="utf-8">
+        <title>Nicolas Ketterer - Contact</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="Skills.html">Skills</a> |
+            <a href="Contact.html">Contact</a>
+        </nav>
+
+        <h1>Contact</h1>
+
+        <div class="top-container">
+            <div class = "address">
+                <p>Nicolas Ketterer<br>505 Walnut Ave, Syracuse NY 13210</p>
+                <p><a href="https://www.linkedin.com/in/nicolasketterer/" target="_blank"> <img src="/ist263/images/RESIZED_LinkedIn_Logo.png" alt="Logo" /> </a></p>
+                <p><a href="https://www.linkedin.com/in/your-profile" target="_blank">My LinkedIn Profile</a></p>
+                <p><a href="mailto:nwketter@syr.edu">nwketter@syr.edu</a></p>
+            </div>
+        </div>
+
+        <div class = "bottom-container">
+            <div class="form-box">
+                <form action="https://formspree.io/f/xnnakqzp" method="POST">
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname">
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname"><br><br>
+
+                    <label for="contact-method"> Contact Method:</label>
+                    <select id="contact-method" name="contact-method">
+                        <option value="email">Email</option>
+                        <option value="phone">Phone</option>
+                        <option value="text">Text Message</option>
+                    </select><br><br>
+
+                    <textarea id="message" name="message" rows="4" required></textarea><br>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class = "map-flex">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5831.51293996204!2d-76.1343893236188!3d43.04655517113756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3a761bd0b81%3A0x2b9129d843ac90a9!2s505%20Walnut%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1726092905119!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+    </body>
+</html>

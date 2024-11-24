@@ -1,0 +1,121 @@
+body {
+    background-color: #b2d8d8;
+    color: #333333;
+}
+
+
+.evenrow{background-color: #A9A9A9}
+
+/* Link Color */
+a {
+    color: #66b2b2;
+}
+
+/* Heading Color */
+h1, h2 {
+    color: #111111;
+}
+
+/* Site Navigation Background */
+nav {
+    background-color: #b2d8d8;
+}
+
+/* Site Navigation Highlight Color */
+nav a:hover {
+    background-color: #008080;
+}
+
+/* Site Navigation Link Color */
+nav a {
+    color: #006666;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav {
+    margin-bottom: 30px
+}
+
+.copyright {float: left; margin-right: 10px}
+.quote {float: right; margin-left: 10px}
+
+
+
+.top-container {
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+    background-color: #e8f0fe;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.address{
+    padding: 20px;
+    text-align: left;
+}
+
+.bottom-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.form-box, .map-flex {
+    flex: 1;
+    padding: 20px;
+    background-color: #e8f0fe;
+    border-radius: 10px;
+}
+
+
+form {
+    display: flex; flex-direction: column;
+    gap: 10px;
+}
+
+iframe {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.skills-flexbox {
+    display: flex;
+    justify-content: space-around;
+    background-color: #bdfef0; 
+    align-items: center; 
+    margin-top: 20px;
+    padding:20px;
+    gap: 20px; 
+}
+
+.skillstable table {
+    margin: 0 auto;
+}
+
+.skillsimage {
+    text-align: center;
+}
+
+.img-fit {
+    max-width: 100%;
+}
+
+@media (max-width=800px)  {
+    nav a {
+        display: block; 
+        width: 100%; 
+        padding: 10px; 
+        text-align: center; 
+        margin-bottom: 10px;
+    }
+
+    nav span.pipe {
+        display: none; 
+    }
+}
